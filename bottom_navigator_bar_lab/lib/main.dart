@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import 'screen1.dart';
 import 'screen2.dart';
 import 'screen3.dart';
@@ -39,7 +40,9 @@ class _BottomNavLabState extends State<BottomNavLab> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Bottom Navigation Bar Lab 05'), //Changed This one
+        title: const Text(
+          'Bottom Navigation Bar',
+        ), //Changed This one (Reviewer removed 05)
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
       ),
@@ -59,7 +62,10 @@ class _BottomNavLabState extends State<BottomNavLab> {
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
           BottomNavigationBarItem(icon: Icon(Icons.alarm), label: 'Alarm'),
-          BottomNavigationBarItem(icon: Icon(Icons.business), label: 'Business'),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.business),
+            label: 'Business',
+          ),
           BottomNavigationBarItem(icon: Icon(Icons.school), label: 'School'),
         ],
       ),
