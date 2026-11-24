@@ -42,7 +42,7 @@ class _BottomNavLabState extends State<BottomNavLab> {
       appBar: AppBar(
         title: const Text(
           'Bottom Navigation Bar',
-        ), //(Reviewer removed 05)
+        ), 
         backgroundColor: Colors.blue,
         foregroundColor: Colors.white,
       ),
